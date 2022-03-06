@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pastelería APAPACHO</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>pasteleria</h1>
+            <h1>APAPACHO</h1>
+            <img src="./logo_pasteleria.png">
+        </header>
+        <a href="./pasteleriaCliente.html"> Volver al inicio</a>
+        <form>
+            <h2>Arma tu pedido</h2>
+            <div>
+                <h3>Ingresa tus datos de contacto</h3>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text" id="nombre">
+                <br>
+                <label for="telefono">Teléfono</label>
+                <br>
+                <input type="tel" id="telefono" maxlength="10">
+                <br>
+                <label for="correo">Correo</label>
+                <br>
+                <input type="email" id="correo">
+            </div>
+
+            <h3>Elige los sabores y decoraciones</h3>
+            <p>¡Cualquier combinación es posible!</p>
+            
+            <div>
+                <h4>Sabores</h4>
+                <input type="checkbox" name="chocolate" value="Chocolate">
+                <label for="chocolate">Chocolate</label><br>
+                <input type="checkbox" name="moca" value="Moca">
+                <label for="moca">Moca</label><br>
+                <input type="checkbox" name="leches" value="tresLeches">
+                <label for="leches">Tres Leches</label><br>
+                <input type="checkbox" name="fresasQ" value="fresasQ">
+                <label for="fresasQ">Fresas con queso</label><br> 
+            </div>
+            <div>
+                <h4>Decoraciones</h4>
+                <input type="checkbox" name="chispas" value="Chispas">
+                <label for="chispas">Chispas de chocolate</label><br>
+                <input type="checkbox" name="tChocolate" value="tChocolate">
+                <label for="tChocolate">Trozos de chocolate</label><br>
+                <input type="checkbox" name="crema" value="crema">
+                <label for="crema">Crema pastelera</label><br>
+                <input type="checkbox" name="merengue" value="Merengue">
+                <label for="merengue">Merengue</label><br> 
+                <input type="checkbox" name="fondant" value="fondant">
+                <label for="fondant">Figuras de fondant</label><br>
+                <input type="checkbox" name="fresas" value="fresas">
+                <label for="fresas">Fresas</label><br>
+            </div>
+            <br>
+            <label for="descripcion">Describe tu pastel</label><br>
+            <textarea name="descripcion"></textarea>
+        </form>
+
+        <footer>
+            <p>Visitanos en Av.Domingo diez No.160, Pachuca, Hidalgo.</p>
+            <p>Horario:</p>
+            <p>Lunes a Domingo</p>
+            <p>11:00 am - 7:00 pm</p>
+            <p>Llamanos al 123-456-78-90</p>
+        </footer>
+
+    </div>
+</body>
+</html>
