@@ -1,0 +1,253 @@
+header {
+    padding: 30px;
+
+}
+
+.enlinea {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boton1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1D6EC4;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.der {
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+
+.vac {
+    color:#1D6EC4;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#pag1 {
+    background-image: url("../Semana3/imagenes/enfermera2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#titulo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue;
+    font-size: 90px;
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#letsStop {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    margin-left: 80px;
+}
+
+.icono {
+    color:darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+}
+
+span .fa-solid {
+    color: gold;
+    font-size: 30px;
+}
+
+.gris{
+    color:#7F8893;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#horario {
+    margin: 60px;
+}
+
+#horario p {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#horarioC {
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(209, 215, 222, 0.2);
+    border-radius: 10px;
+    column-count: 4;
+    padding: 36px;
+    background-color: white;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+#horarioC p {
+    margin-left: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#porquevacunarse {
+    margin-left: 50px;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h6 {
+    color: darkblue;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.icon-why {
+    color:blue;
+    font-size: 30px;
+    border-style: inset;
+    border-width: 3px;
+    border-color: rgba(117, 173, 238, 0.1);
+    border-radius: 5px;
+    background-color: #F0FDFC;
+    padding: 5px;
+}
+
+#elporq {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: center;
+}
+
+#elporq div {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(209, 215, 222, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+#elporq p {
+    font-size: 18px;
+}
+
+#mujer {
+    background-image: url("../Semana3/imagenes/mujer.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    height: max-content;
+    padding: 20px;
+}
+
+.icond {
+    float: right;
+}
+
+#preparacion {
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+
+.prep {
+    color: blue;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(209, 215, 222, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#hombre {
+    background-image: url("../Semana3/imagenes/hombre.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
+
+.cuatro {
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(209, 215, 222, 0.1);
+    border-radius: 10px;
+}
+
+.titcontact {
+    color: blue;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuatro i {
+    font-size: 40px;
+    color: blue;
+    float: left;
+    padding: 10px;
+}
+
+.numcontact {
+    color:#7F8893;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8FAFA;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+#listas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titlista{
+    color:darkblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer div ul li {
+    padding: 10px;
+}
+
+#fin {
+    margin-top: 80px;
+}
