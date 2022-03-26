@@ -1,0 +1,129 @@
+body{
+    background-color: #bd0f34;
+}
+
+#header {
+    background-image: url('./arriba.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-style: bold;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #e2e615;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    border-radius: 100px;
+    padding: 30px;
+    border: 5px outset #81830b;
+}
+
+#imagenPokemon {
+    width: 500px;
+    border-radius: 30px; 
+}
+
+#pantalla {
+    background-color: white;
+    border: solid 35px;
+    border-color: #CBCDCD;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#tableishon {
+    margin: 20px;
+    padding: 20px;
+}
+
+th,td {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head {
+    color: white;
+    background-color: #032d29;
+}
+
+#body {
+    color: gold;
+    background-color: #31a7f1;
+    text-shadow: 2px 2px 1px black;
+}
+
+#pokeName {
+    background-color: #55ab62;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    padding: 30px;
+}
+
+.caracteristicas {
+    color: white;
+    background-color: #032d29;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 5px groove #2E4053;
+    border-radius: 30px;
+}
+
+.caracteristicas li {
+    list-style-type: none;
+    background-color: #F39C12;
+    width:fit-content;
+    padding: 5px;
+    border: 5px solid #C0392B;
+    border-radius: 5px;
+    color: black;
+    margin: 20px;
+    display: inline;
+}
+
+.caracteristicas label {
+    padding: 20px;
+    font-size: 30px;
+    text-shadow:  2px 2px 1px black;
+}
+
+#moves {
+    color: white;
+    background-color: #032d29;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    margin: 20px;
+    padding: 20px;
+    border: 5px groove #2E4053;
+    border-radius: 30px;
+}
+
+#moves li {
+    display: inline;
+}
+
+#moves label {
+    padding: 20px;
+    font-size: 30px;
+    text-shadow:  2px 2px 1px black;
+}
+
+#final {
+    width: 100%;
+}
